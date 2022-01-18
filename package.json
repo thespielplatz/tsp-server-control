@@ -1,0 +1,26 @@
+{
+  "name": "tsp-server-control",
+  "version": "1.0.0",
+  "description": "Server Control for microservices",
+  "main": "app.js",
+  "scripts": {
+    "run": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thespielplatz/tsp-server-control.git"
+  },
+  "author": "Philipp Horwath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thespielplatz/tsp-server-control/issues"
+  },
+  "homepage": "https://github.com/thespielplatz/tsp-server-control#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.2",
+    "express-favicon": "^2.0.1"
+  }
+}
