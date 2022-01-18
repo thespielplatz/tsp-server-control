@@ -1,4 +1,4 @@
-const PORT = 2222;
+const PORT = process.env.NODE_PORT || 2222;
 
 const NAME = require('./../package.json').name;
 const VERSION = require('./../package.json').version;
