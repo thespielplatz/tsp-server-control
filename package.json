@@ -1,5 +1,5 @@
 {
-  "name": "tsp-server-control",
+  "name": "Server Control",
   "version": "1.0.0",
   "description": "Server Control for microservices",
   "main": "app.js",
