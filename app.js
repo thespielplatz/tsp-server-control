@@ -9,3 +9,9 @@ server.start(() => {
     console.log("go!");
 });
 
+
+process.on('SIGINT', function() {
+    app.close(() => {
+        process.exit(0)
+    })
+})
